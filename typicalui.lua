@@ -12,6 +12,7 @@ function Library:CreateMain()
 
     UI_1.Name = "UI_1"
     UI_1.Parent = game.CoreGui
+    UI_1.ResetOnSpawn = false
 
     Main.Name = "Main"
     Main.Parent = UI_1
