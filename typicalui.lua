@@ -11,7 +11,7 @@ function Library:CreateMain()
     local Line = Instance.new("Frame")
 
     UI_1.Name = "UI_1"
-    UI_1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+    UI_1.Parent = game.CoreGui
 
     Main.Name = "Main"
     Main.Parent = UI_1
