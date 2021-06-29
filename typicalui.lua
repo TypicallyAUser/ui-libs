@@ -136,6 +136,7 @@ function Library:CreateMain()
         Tab1.Name = Name
         Tab1.Parent = Tabs
         Tab1.Active = true
+	Tab1.Visible = false
         Tab1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         Tab1.BackgroundTransparency = 1.000
         Tab1.BorderSizePixel = 0
